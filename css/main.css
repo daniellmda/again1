@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    background: #FDFCEF;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    line-height: 140%;
+}
+h2 {
+    font-size: 40px;
+    line-height: 140%;
+}
+.mainoffer {
+    text-align: center;
+}
+p {
+    font-weight: 500;
+    line-height: 136.7%;
+    margin: 0;
+}
+section {
+    padding-top: 120px;
+}
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
+.header {
+    padding-top: 60px;
+}
+.logo {
+    display: block;
+}
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+.offer {
+    width: 465px;
+}
+.intro-text {
+    margin: 30px 0px;
+}
+.btn {
+    color: #fff;
+    padding: 22px 70px;
+    background: #FF6861;
+    border-radius: 100px;
+    display: block;
+    width: 227px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #db4e46;
+}
+.content-img {
+    width: 73px;
+    height: 73px;
+    margin-right: 34px;
+}
+.game-content {
+    display: flex;
+    align-items: center;
+}
+.content-title {
+    font-size: 30px;
+    padding-bottom: 11px;
+}
+.gaming {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+.playnow-wrap {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+}
+.playnow-info {
+    width: 475px;
+    margin: 76px 101px 75px 122px;
+}
+.playnow-text {
+    margin: 30px 0;
+    width: 371px;
+}
